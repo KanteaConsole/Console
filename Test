@@ -1,9 +1,19 @@
-reperepeat wait() until game:IsLoaded()
+repeat wait() until game:IsLoaded()
+
 local PlaceId = game.PlaceId
 
-    loadstring(game:HttpGet"loadstring(game:HttpGet(('https://gist.githubusercontent.com/MorrisBrProjects/cf5f5379cdf677651176fd3510191c50/raw/7674bd61f052ae340fd549358c535f60b59ae1e5/AnimalSimulator%2520Gui.lua'),true))()")()
-elseif PlaceId == 5712833750 then
+if PlaceId == 5712833750 then
+
+    if _G.Beta then
+
+        loadstring(game:HttpGet"loadstring(game:HttpGet(('https://gist.githubusercontent.com/MorrisBrProjects/cf5f5379cdf677651176fd3510191c50/raw/7674bd61f052ae340fd549358c535f60b59ae1e5/AnimalSimulator%2520Gui.lua'),true))()")()
+
+        return
+
+    end
+
     loadstring(game:HttpGet"loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()")()
+
 elseif PlaceId == 5712833750 then
 
 end
