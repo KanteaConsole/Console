@@ -1,5 +1,7 @@
--- https://www.roblox.com/games/2960777560/DUNGEON-Treasure-Quest
-getgenv().TreasureQuestAutofarm = {
+game:service'StarterGui':SetCore("SendNotification", {
+        Title = "Made By KanteaConsole:)";
+        Text = "> Work Treasure Quest < ";
+    })
     Enabled = true;
     Dungeon = "Sinister Sewers" ;
     Difficulty = "Easy";
