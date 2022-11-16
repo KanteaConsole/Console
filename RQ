@@ -5,6 +5,13 @@
 -- Made by KanteaConsole
 
 ------------------------------------------------------
+game:service'StarterGui':SetCore("SendNotification", {
+
+        Title = "Hey:)";
+
+        Text = "> Made By KanteaConsole < ";
+
+    })
 
 if not game.Players.LocalPlayer:WaitForChild("PlayerGui"):FindFirstChild("KanTea") then
 
