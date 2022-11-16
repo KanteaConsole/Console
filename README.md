@@ -1,1 +1,3 @@
-# Treasure-Quest
+# TQ
+# BQ
+# RQ
